@@ -9,4 +9,5 @@ def get_numerical_df(df, numerical_features):
     Returns:
         pd.DataFrame: DataFrame containing only numerical features.
     """
-    pass  # Implement the logic here
+    # Select only the specified numerical features from the DataFrame
+    return df[numerical_features]
